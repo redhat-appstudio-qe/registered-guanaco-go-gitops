@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: registered-guanaco-go-gitops-repository
+spec:
+  url: https://github.com/redhat-appstudio-qe/registered-guanaco-go-gitops
